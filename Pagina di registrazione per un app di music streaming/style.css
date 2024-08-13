@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(141, 207, 191);
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 120px;
+    
+}
+
+.contenitore-form {
+    border: 2px solid black;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+
+.contenitore-input {
+    padding: 5px;
+}
+
+.contenitore-checkbox {
+    display: flex;
+    column-gap: 25px;
+    margin-top: -25px;
+    justify-content: center;
+}
+
+.termini-e-condizioni {
+    display: flex;
+    column-gap: 25px;
+    margin-top: -25px;
+    justify-content: center;
+}
+
+.contenitore-radio {
+    text-align: center;
+}
+
+.bottone-invia {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.descrizione {
+    text-align: center;
+}
